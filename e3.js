@@ -34,7 +34,7 @@ const l = [
             
             // document.body.appendChild(div);
 const ul = document.createElement("ul");
-
+repo = 'https://github.com/nicolagardo/silabuz-u7-a7'
 const lista = l.map(e => {
     let ulName = document.createTextNode(e.nombre);
     ul.appendChild(ulName);
@@ -48,7 +48,6 @@ const lista = l.map(e => {
     li2.appendChild(email);
     ulSub.appendChild(li);
     ulSub.appendChild(li2);
-
     ul.appendChild(ulSub);
 
 
